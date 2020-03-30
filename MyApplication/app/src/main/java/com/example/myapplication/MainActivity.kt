@@ -189,4 +189,15 @@ class MainActivity : AppCompatActivity() {
             print(e.printStackTrace())
         }
     }
+
+    // Lab 6
+    // Create a new Activity in your application and display information from the sensors available on the device.(3 p)
+    fun openAbout(item: MenuItem) {
+        startActivity(Intent(this, AboutActivity::class.java))
+    }
+
+
+    fun openLocation(item: MenuItem){
+        startActivity(Intent(this, LocationActivity::class.java))
+    }
 }
