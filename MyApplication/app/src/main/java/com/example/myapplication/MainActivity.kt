@@ -200,4 +200,9 @@ class MainActivity : AppCompatActivity() {
     fun openLocation(item: MenuItem){
         startActivity(Intent(this, LocationActivity::class.java))
     }
+
+    // Lab 7
+    fun openCamera(item: MenuItem){
+        startActivity(Intent(this, CameraActivity::class.java))
+    }
 }

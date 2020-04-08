@@ -5,6 +5,10 @@
         android:onClick="showDialog"
         android:title="Show dialog" />
     <item
+        android:id="@+id/camera"
+        android:title="Camera"
+        android:onClick="openCamera" />
+    <item
         android:id="@+id/open_location"
         android:title="Location"
         android:onClick="openLocation"
